@@ -32,4 +32,6 @@ deploy:
   app: "react-docker"
   env: "ReactDocker-env"
   bucket_name: "elasticbeanstalk-ap-southeast-1-653020408072"
+  on:
+    branch: master
 #DockerReact-env.awm3srkjku.ap-southeast-1.elasticbeanstalk.com
