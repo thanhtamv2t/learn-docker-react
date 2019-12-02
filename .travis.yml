@@ -30,7 +30,7 @@ deploy:
     secure: "$AWS_SECRET"
   region: "ap-southeast-1"
   app: "react-docker"
-  env: "e-e2gfskcmrt"
+  env: "ReactDocker-env"
   bucket_name: "elasticbeanstalk-ap-southeast-1-653020408072"
   on:
     branch: master
